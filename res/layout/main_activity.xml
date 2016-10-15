@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/purple"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:divider="@drawable/mydivider"
+        android:showDividers="middle"
+        android:dividerPadding="22dp" >
+
+    <Button
+        android:id="@+id/lookup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lookup_str"
+        android:textColor="@color/gray" />
+
+    <EditText
+        android:id="@+id/money_textfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_style"
+        android:gravity="center"
+        android:hint="Dining Account Balance"
+        android:inputType="numberDecimal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/dark_gray"
+        android:textSize="30sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/days_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 Days Left In Quarter"
+        android:textColor="@color/gray"
+        android:textSize="30sp" />
+    
+    <TextView
+        android:id="@+id/daily_money_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/daily_money_str"
+        android:textColor="@color/gray"
+        android:textSize="30sp" />
+
+</LinearLayout>

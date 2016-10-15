@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HuskyBudget</string>
+    <string name="action_settings">Settings</string>
+    <string name="lookup_str">Lookup Dining Balance</string>
+    <string name="daily_money_str">$ / Day: </string>
+    <string name="money_textfield_hint">Dining Account Balance</string>
+
+</resources>
